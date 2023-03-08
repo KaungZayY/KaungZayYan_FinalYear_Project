@@ -55,7 +55,7 @@
 					echo"<p>Opps! Something went wrong".mysqli_error($connect)."</p>";
 				}
 				else{
-					echo"<script>window.alert('New Admin Successfully Added')</script>";
+					echo"<script>window.alert('New Librarian Successfully Added')</script>";
 					echo"<script>window.location='login.php'</script>";
 				}
 			}

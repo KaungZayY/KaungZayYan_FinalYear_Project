@@ -48,7 +48,7 @@
 				</tr>
 				<tr>
 					<td>Book Limit</td>
-					<td><input type="text" name="txtbooklimit" required value="<?php echo $booklimit ?>"</td>
+					<td><input type="text" name="txtbooklimit" required value="<?php echo $booklimit ?>"></td>
 				</tr>
 				<tr>
 					<td>Borrowing Period</td>

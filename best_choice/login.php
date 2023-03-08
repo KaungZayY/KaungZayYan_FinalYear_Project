@@ -59,7 +59,8 @@
 				echo "<script>window.location='memberHome.php'</script>";
 			}
 			else{
-				echo"<script>alert('Invalid Login')window.location='login.php'</script>";
+				echo "<script>window.alert('Cannot Login, check email and password again')</script>";
+				echo "<script>window.location='login.php'</script>";
 			}
 		}
 

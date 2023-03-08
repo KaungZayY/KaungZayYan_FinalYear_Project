@@ -27,7 +27,7 @@ if(isset($_SESSION['librarianID'])&&$_SESSION['accountType']==="librarian"){
 		$librarian_phonenumber = $_POST['txtLibrarianPhoneNumber'];
 
 
-		echo $update="UPDATE librarian SET ,librarian_name='$librarian_name',
+		echo $update="UPDATE librarian SET librarian_name='$librarian_name',
 		librarian_email='$librarian_email',librarian_password='$librarian_password',librarian_address='$librarian_address',librarian_phonenumber='$librarian_phonenumber'
 		WHERE librarian_id='$librarian_id'";
 		$query1=mysqli_query($connect, $update);
@@ -37,7 +37,7 @@ if(isset($_SESSION['librarianID'])&&$_SESSION['accountType']==="librarian"){
 			</script>";
 		}
 		else{
-			echo "<script>alert(' Update Successful')
+			echo "<script>alert(' Update Successful, Login Again')
 			window.location='librarianHome.php'
 			</script>";
 		}
